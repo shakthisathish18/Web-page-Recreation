@@ -1,0 +1,416 @@
+.parent{
+display: grid;
+grid-template-columns: 15% 85%;
+grid-template-rows: 670px;
+/* border:2px solid white ; */
+}
+
+.db{
+  background-color: rgb(2, 2, 69);
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.profile{
+  padding-top: 0.5cm;
+  padding-left: 0.1cm;
+  display: grid;
+  grid-template-columns: 97% ;
+  grid-template-rows:  40% 30% 30%;
+}
+.prodet{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  background-color: rgb(73, 73, 243);  
+  border-radius: 5px;
+ 
+}
+.popt{
+  height: 1cm;
+  /* width:5.1cm; */
+  width:70%;
+  background-color: rgb(73, 73, 243);  
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+}
+
+
+.mainpage{
+  background-color:gainsboro;
+  
+
+}
+.mpel {
+  display:grid;
+  grid-template-columns:25% 25% 25% 25% ;
+  grid-template-rows: 60px 140px 260px 200px;
+  background-color: gainsboro;
+  margin:10px;
+  
+}
+.mp {
+  /* border: 2px solid grey; */
+  border-radius:10px ;
+  margin:10px;
+  background-color: white;
+}
+.welcome{
+  /* border:none; */
+  background-color: gainsboro;
+  grid-column:1/4 ;
+  margin-top: 0px;
+}
+.search{
+  /* border:none; */
+  background-color:gainsboro;;
+  padding-left: 53px;
+  padding-top: 10px;
+}
+.searchbar  {
+ 
+  float: right;
+  justify-self: center;
+  font-size: 17px;
+  border: 2px solid  gainsboro;
+  cursor: pointer;
+  width:180px;
+  background-color: white; 
+  border-radius: 8px;
+}
+
+
+.earn{
+ display: grid;
+ grid-template-rows:100%;
+ grid-template-columns:50% 50% ;
+}
+.orders{
+  display: grid;
+  grid-template-rows:100%;
+  grid-template-columns:50% 50% ;
+  
+}
+.balance{
+  display: grid;
+  grid-template-rows:100%;
+  grid-template-columns:50% 50% ;
+}
+.ts{
+  display: grid;
+  grid-template-rows:100%;
+  grid-template-columns:50% 50% ;
+}
+.ei{
+  /* border: 2px solid rgb(9, 249, 9); */
+  background-color: rgb(9, 249, 9);
+  border-radius: 50%;
+  
+  margin: 10px;
+  justify-content: center;
+}
+.ei:hover{
+  transform: scale(1.1);
+  background-color: silver;
+  border-radius:50% ;
+}
+.es{
+  /* border: 2px solid green; NOTE: it helps to highlighted a splited grid box */
+  padding-top: 20px;
+}
+.es:hover{
+  transform: scale(1.1);
+  background-color: silver;
+  border-radius:10px ;
+}
+.o{
+  background-color:rgb(253, 193, 253) ;
+}
+.b{
+  background-color: rgb(203, 248, 248);
+}
+.t{
+background-color: rgb(251, 158, 173);
+}
+.overview{
+grid-column:1/4 ;
+display:grid;
+grid-template-columns: 100%;
+grid-template-rows: 15% 10% 75%;
+}
+.ovone{
+  padding: 15px;
+}
+.options{
+  float:right;
+  background-color:gainsboro ;
+  border: none;
+  border-radius: 10px;
+}
+.ovtwo{
+  padding-left: 15px;
+}
+
+.ovthree{
+  display: grid;
+  grid-template-rows:80% 20%;
+  grid-template-columns: 100%;
+}
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-gap: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ }
+ .stats{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-row-end: span;
+  grid-gap: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ .month{
+  /* background-color: blue; */
+  text-align: center;
+    font-size: 14px;
+  border-radius: 5px;
+ }
+.state{
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+.state:hover{
+  background-color: blue;
+  border-radius: 5px;
+}
+.state.jan{
+  height:65%;
+  align-self: last baseline;
+}
+.state.feb{
+  height:50%;
+  align-self: last baseline;
+}
+.state.apr{
+  height:75%;
+  align-self: last baseline;
+}
+.state.may{
+  height:90%;
+  align-self: last baseline;
+}
+.state.june{
+  height:45%;
+  align-self: last baseline;
+}
+.state.july{
+  height:90%;
+  align-self: last baseline;
+}
+.state.sep{
+  height:96%;
+  align-self: last baseline;
+}
+.state.oct{
+  height:75%;
+  align-self: last baseline;
+}
+.state.nov{
+  height:75%;
+  align-self: last baseline;
+}
+.dec{
+  height:90%;
+  align-self: last baseline;
+}
+.ps{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+}
+.left{
+display: grid;
+grid-template-columns:30% 70%   ;
+grid-template-rows: 15% 15% 35% 35%;
+/* border:2px solid yellow; */
+}
+.psell{
+grid-column: 1/5;
+padding: 10px;
+padding-left: 15px;
+}
+.pname{
+grid-column: 1/5;
+padding: 5px;
+padding-left: 15px;
+border-bottom: 1px solid silver;
+}
+
+
+
+.imgao{
+  padding-top: 8px;
+  grid-column:2/5 ;
+
+}
+.imgao:hover{
+  transform: scale(1.1);
+  background-color: gainsboro;
+  border-radius:10px ;
+}
+img:hover{
+  transform: scale(1.1);
+
+  border-radius:10px ;
+}
+.imgat:hover{
+  transform: scale(1.1);
+  background-color: gainsboro;
+  border-radius:10px ;
+}
+
+.imgat{
+  padding-top: 0px;
+  grid-column:2/5 ;
+
+}
+
+.right{
+display:grid;
+grid-template-columns: 40% 30% 30% ;
+grid-template-rows: 15% 15% 35% 35%;
+/* border: 2px solid yellow;
+background-color: aqua; */
+}
+.ri{
+  /* border:2px solid red; */
+  text-align: center;
+}
+.sbar{
+  grid-column: 1/4;
+} 
+.sb{
+float:left;
+background-color:gainsboro ;
+border: none;
+border-radius: 10px;
+width: 5cm;
+margin-left: 50px;
+padding-left: 20px;
+margin-top: 8px;
+}
+.opt{
+  float:right;
+  background-color:gainsboro ;
+  width:4cm;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+ .dbox{
+
+ }  
+ .sbar{
+
+ }  
+ .dbox{
+
+ }  
+ .stock{
+  text-align: center;
+  border-bottom: 1px solid silver;
+ } 
+ .price{
+  text-align: center;
+  border-bottom: 1px solid silver;
+ }  
+ .tsales{
+ text-align: center;
+ border-bottom: 1px solid silver;
+ }  
+ .stocko {
+padding-top: 15px;
+ }
+ .po {
+  padding-top: 15px;
+ }
+ .tso{
+  padding-top: 15px;
+ } 
+ .stockt{
+  padding-top: 15px;
+ } 
+ .spt{
+  padding-top: 15px;
+ } 
+ .tst{
+  padding-top: 15px;
+ }
+body{
+  background-color: white;
+}
+.dashboard{
+  text-align: center;
+
+}
+.dbleft{
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 30%;
+  height:85%;
+
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-content: center;
+  background-color: brown; */
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
+h1{
+  color: white;
+}
+h4{
+  
+  margin:10px;
+  color:white;
+}
+h3{
+  color: black;
+}
+small{
+  color: rgb(120, 117, 117);
+}
+.l:hover{
+  transform: scale(1.1);
+  background-color:rgb(73, 73, 243);
+  border-radius:10px ;
+}
+
+.customers{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+}
+.cus{
+  /* background-color: yellow;
+  border: 2px solid red; */
+}
+.cus.hd{
+  padding-left: 0.5cm;
+  padding-top: 5px;
+}
